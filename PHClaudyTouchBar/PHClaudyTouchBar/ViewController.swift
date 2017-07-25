@@ -26,6 +26,13 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let allure = NSTouchBarItemIdentifier("allure")
     static let drink = NSTouchBarItemIdentifier("drink")
     static let weekend = NSTouchBarItemIdentifier("weekend")
+    static let phoneBox = NSTouchBarItemIdentifier("phoneBox")
+    static let enought = NSTouchBarItemIdentifier("enought")
+    static let cocotte = NSTouchBarItemIdentifier("cocotte")
+    static let carJack = NSTouchBarItemIdentifier("carJack")
+    static let clown = NSTouchBarItemIdentifier("clown")
+    static let down = NSTouchBarItemIdentifier("down")
+    static let phoneNumber = NSTouchBarItemIdentifier("phoneNumber")
 }
 
 
@@ -37,15 +44,22 @@ class ViewController: NSViewController, NSTouchBarDelegate {
                           "🌑" : "Je n'en peux plus, je suis au bout du rouleau, j'ai envie de rentrer, me foutre mes savates et terminé bonsoir !",
                           "⛔": "Chef, ou tu sors ou j'te sors mais faudra prendre une décision.",
                           "🍺": "Et tu vas profiter pour changer de verre aussi... Celui-là il goute le savon. J'sais bien que j'aime bien la mousse mais faudrait tout de même pas exagérer hein.",
-                          "👸": "Connasse",
+                          "👸": "Connasse va",
                           "🏑": "Faut pas commencer à jouer avec mes couilles !",
                           "💇": "Est-ce que t'es épilée, t'es pas épilée, t'as des copines, t'as pas de copines ? Y a pas de plan tarifaire avec les prix…",
                           "🐴":"En tout cas, toi, ils t'ont pas loupée, hein ! Je sais pas si c'est un cheval ou une truie mais… On peut aussi faire un bouquin sur halloween si tu veux !",
                           "😤":"T'es tendue comme une crampe...",
                           "👽" : "Va te faire refaire hein, alien !",
                           "🐷" : "Allez viens ! Allez, lève toi ! on n'a aucune allure allez, ça n'a aucune allure.",
-                          "🥛" : "Pour rien vous cacher on est occupé à boir un verre",
-                          "🇧🇪" : "Vous savez il est 17h45 partout en belgique et on aimerai bien aussi avoir un pti boud'week end hein"
+                          "🥛" : "Pour rien vous cacher on est occupé à boire un verre",
+                          "🇧🇪" : "Vous savez il est 17h45 partout en belgique et on aimerai bien aussi avoir un pti boud'week end hein",
+                          "📞": "C'est une cabine publique pour ton information",
+                          "😡": "Ça va suffire maintenant ! Tu n'as que ça à faire toi ! ",
+                          "💃": "Ça dépend de toi, ça ma cocotte !",
+                          "🚗": "Dis, je dis je viens de me faire carjacker",
+                          "🤡": "j'ai l'impression qu'on m'a donné les deux cludes de l'IAD hein, là, le, le fond du panier ! ",
+                          "🔽": "je vais te demander d'enlever le bas",
+                          "📱": "Écoutes ma fille, si ça t’intéresse, t’as mon numéro qu’est là, si ça t’intéresse pas au revoir Monsieur bon weekend... qu’est ce que tu veux que j‘te dise moi ?"
                         ];
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +82,7 @@ class ViewController: NSViewController, NSTouchBarDelegate {
             return
         }
 
-        _claudyDialogL.stringValue = _texts[title]!;
+        _claudyDialogL.stringValue = "\"" + _texts[title]! + "\" Claudy Focan";
         
         sound.play()
     }
@@ -80,7 +94,7 @@ class ViewController: NSViewController, NSTouchBarDelegate {
         touchBar.customizationIdentifier = .touchBar
         
         touchBar.defaultItemIdentifiers = [.connasse, .couilles, .stress, .flexibleSpace,.beer, .out, .alien, .flexibleSpace,.goodnight, ]
-        touchBar.customizationAllowedItemIdentifiers =  [.iam ,.connasse, .couilles, .stress,.shaved,.beer, .out, .missed, .alien, .goodnight, .allure, .drink, .weekend]
+        touchBar.customizationAllowedItemIdentifiers =  [.iam ,.connasse, .couilles, .stress,.shaved,.beer, .out, .missed, .alien, .goodnight, .allure, .drink, .weekend, .phoneBox, .enought, .carJack, .cocotte, .clown, .down, .phoneNumber]
         
         return touchBar
     }
@@ -147,6 +161,34 @@ class ViewController: NSViewController, NSTouchBarDelegate {
             title = "🇧🇪"
             label = "il  est 17h45 partout en belgique"
             break;
+        case NSTouchBarItemIdentifier.phoneBox:
+            title = "📞"
+            label = "Cabine Publique"
+            break;
+        case NSTouchBarItemIdentifier.enought:
+            title = "😡"
+            label = "Ca va suffire maintenant"
+            break;
+        case NSTouchBarItemIdentifier.cocotte:
+            title = "💃"
+            label = "Ma cocotte"
+            break;
+        case NSTouchBarItemIdentifier.carJack:
+            title = "🚗"
+            label = "Je me suis carjacké"
+            break;
+        case NSTouchBarItemIdentifier.clown:
+            title = "🤡"
+            label = "2 cludes de l'IAD"
+            break;
+        case NSTouchBarItemIdentifier.down:
+            title = "🔽"
+            label = "Enlever le bas"
+            break;
+        case NSTouchBarItemIdentifier.phoneNumber:
+            title = "📱"
+            label = "Ça t’intéresse"
+            break;
         default:
             title = ""
             return nil;
@@ -161,7 +203,6 @@ class ViewController: NSViewController, NSTouchBarDelegate {
         }
         return nil;
     }
-
 
 }
 

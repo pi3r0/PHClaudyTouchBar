@@ -16,6 +16,27 @@ Feel free to add quote or directly request it
 2. Display text from sounds
 3. Allow to change the touch bar default items 
 
+## Quotes Available 
+1. "Voila je me présente en deux mots je suis Claudy Focan",
+2. "Je n'en peux plus, je suis au bout du rouleau, j'ai envie de rentrer, me foutre mes savates et terminé bonsoir !"
+3. « Chef, ou tu sors ou j'te sors mais faudra prendre une décision."
+4. « Et tu vas profiter pour changer de verre aussi... Celui-là il goute le savon. J'sais bien que j'aime bien la mousse mais faudrait tout de même pas exagérer hein."
+5. "Connasse va"
+6. "Faut pas commencer à jouer avec mes couilles !"
+7. "Est-ce que t'es épilée, t'es pas épilée, t'as des copines, t'as pas de copines ? Y a pas de plan tarifaire avec les prix…"
+8. « En tout cas, toi, ils t'ont pas loupée, hein ! Je sais pas si c'est un cheval ou une truie mais… On peut aussi faire un bouquin sur halloween si tu veux !"
+9. « T’es tendue comme une crampe..."
+10. "Va te faire refaire hein, alien !"
+11. "Allez viens ! Allez, lève toi ! on n'a aucune allure allez, ça n'a aucune allure.",
+12. "Pour rien vous cacher on est occupé à boire un verre"
+13. "Vous savez il est 17h45 partout en belgique et on aimerai bien aussi avoir un pti boud'week end hein"
+14. "C'est une cabine publique pour ton information",
+15. "Ça va suffire maintenant ! Tu n'as que ça à faire toi ! "
+16. "Ça dépend de toi, ça ma cocotte !"
+17. "Dis, je dis je viens de me faire carjacker »
+18. "j'ai l'impression qu'on m'a donné les deux cludes de l'IAD hein, là, le, le fond du panier ! "
+19. "je vais te demander d'enlever le bas"
+20. "Écoutes ma fille, si ça t’intéresse, t’as mon numéro qu’est là, si ça t’intéresse pas au revoir Monsieur bon weekend... qu’est ce que tu veux que j‘te dise moi ?"
 
 ## Copyright
 Feel free to copy this code and use it to make your own Claudy Touch bar.
@@ -31,3 +52,4 @@ Feel free to copy this code and use it to make your own Claudy Touch bar.
 
 ### Thanks
 [@guidouil](https://github.com/guidouil) for the code base
+[Dikkenek le soundboard](https://dikkenek-le-soundboard.herokuapp.com) for the sounds database
