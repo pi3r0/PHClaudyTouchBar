@@ -23,6 +23,9 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let goodnight = NSTouchBarItemIdentifier("goodnight")
     static let stress = NSTouchBarItemIdentifier("stress")
     static let alien = NSTouchBarItemIdentifier("alien")
+    static let allure = NSTouchBarItemIdentifier("allure")
+    static let drink = NSTouchBarItemIdentifier("drink")
+    static let weekend = NSTouchBarItemIdentifier("weekend")
 }
 
 
@@ -40,6 +43,9 @@ class ViewController: NSViewController, NSTouchBarDelegate {
                           "🐴":"En tout cas, toi, ils t'ont pas loupée, hein ! Je sais pas si c'est un cheval ou une truie mais… On peut aussi faire un bouquin sur halloween si tu veux !",
                           "😤":"T'es tendue comme une crampe...",
                           "👽" : "Va te faire refaire hein, alien !",
+                          "🐷" : "Allez viens ! Allez, lève toi ! on n'a aucune allure allez, ça n'a aucune allure.",
+                          "🥛" : "Pour rien vous cacher on est occupé à boir un verre",
+                          "🇧🇪" : "Vous savez il est 17h45 partout en belgique et on aimerai bien aussi avoir un pti boud'week end hein"
                         ];
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,8 +79,8 @@ class ViewController: NSViewController, NSTouchBarDelegate {
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
         
-        touchBar.defaultItemIdentifiers = [.connasse, .couilles, .stress, .flexibleSpace,.beer, .out, .alien, .flexibleSpace,.goodnight]
-        touchBar.customizationAllowedItemIdentifiers =  [.iam ,.connasse, .couilles, .stress,.shaved,.beer, .out, .missed, .alien, .goodnight]
+        touchBar.defaultItemIdentifiers = [.connasse, .couilles, .stress, .flexibleSpace,.beer, .out, .alien, .flexibleSpace,.goodnight, ]
+        touchBar.customizationAllowedItemIdentifiers =  [.iam ,.connasse, .couilles, .stress,.shaved,.beer, .out, .missed, .alien, .goodnight, .allure, .drink, .weekend]
         
         return touchBar
     }
@@ -128,6 +134,18 @@ class ViewController: NSViewController, NSTouchBarDelegate {
         case NSTouchBarItemIdentifier.alien:
             title = "👽"
             label = "Alien"
+            break;
+        case NSTouchBarItemIdentifier.allure:
+            title = "🐷"
+            label = "Aucune Allure"
+            break;
+        case NSTouchBarItemIdentifier.drink:
+            title = "🥛"
+            label = "Occupé à boire un verre"
+            break;
+        case NSTouchBarItemIdentifier.weekend:
+            title = "🇧🇪"
+            label = "il  est 17h45 partout en belgique"
             break;
         default:
             title = ""

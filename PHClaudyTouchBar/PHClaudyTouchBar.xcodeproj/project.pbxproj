@@ -22,6 +22,9 @@
 		89987D4A1F27BD0F00D4A924 /* 💇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D401F27BD0F00D4A924 /* 💇.mp3 */; };
 		89987D4B1F27BD0F00D4A924 /* 😤.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D411F27BD0F00D4A924 /* 😤.mp3 */; };
 		89987D4D1F27C18F00D4A924 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987D4C1F27C18F00D4A924 /* WindowController.swift */; };
+		89987D511F27D7FC00D4A924 /* 🇧🇪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D4E1F27D7FC00D4A924 /* 🇧🇪.mp3 */; };
+		89987D521F27D7FC00D4A924 /* 🐷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D4F1F27D7FC00D4A924 /* 🐷.mp3 */; };
+		89987D531F27D7FC00D4A924 /* 🥛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D501F27D7FC00D4A924 /* 🥛.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		89987D401F27BD0F00D4A924 /* 💇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💇.mp3"; sourceTree = "<group>"; };
 		89987D411F27BD0F00D4A924 /* 😤.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "😤.mp3"; sourceTree = "<group>"; };
 		89987D4C1F27C18F00D4A924 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		89987D4E1F27D7FC00D4A924 /* 🇧🇪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🇧🇪.mp3"; sourceTree = "<group>"; };
+		89987D4F1F27D7FC00D4A924 /* 🐷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🐷.mp3"; sourceTree = "<group>"; };
+		89987D501F27D7FC00D4A924 /* 🥛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🥛.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 		89987D371F27BD0F00D4A924 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				89987D4E1F27D7FC00D4A924 /* 🇧🇪.mp3 */,
+				89987D4F1F27D7FC00D4A924 /* 🐷.mp3 */,
+				89987D501F27D7FC00D4A924 /* 🥛.mp3 */,
 				89987D381F27BD0F00D4A924 /* ⛔.mp3 */,
 				89987D391F27BD0F00D4A924 /* 🌑.mp3 */,
 				89987D3A1F27BD0F00D4A924 /* 🍺.mp3 */,
@@ -167,12 +176,15 @@
 				89987D441F27BD0F00D4A924 /* 🍺.mp3 in Resources */,
 				89987D461F27BD0F00D4A924 /* 🐴.mp3 in Resources */,
 				89987D4A1F27BD0F00D4A924 /* 💇.mp3 in Resources */,
+				89987D531F27D7FC00D4A924 /* 🥛.mp3 in Resources */,
 				89987D421F27BD0F00D4A924 /* ⛔.mp3 in Resources */,
+				89987D521F27D7FC00D4A924 /* 🐷.mp3 in Resources */,
 				89987D431F27BD0F00D4A924 /* 🌑.mp3 in Resources */,
 				89987D451F27BD0F00D4A924 /* 🏑.mp3 in Resources */,
 				89987D2D1F27BC9A00D4A924 /* Assets.xcassets in Resources */,
 				89987D481F27BD0F00D4A924 /* 👸.mp3 in Resources */,
 				89987D301F27BC9A00D4A924 /* Main.storyboard in Resources */,
+				89987D511F27D7FC00D4A924 /* 🇧🇪.mp3 in Resources */,
 				89987D471F27BD0F00D4A924 /* 👦.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +359,7 @@
 				89987D361F27BC9A00D4A924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
