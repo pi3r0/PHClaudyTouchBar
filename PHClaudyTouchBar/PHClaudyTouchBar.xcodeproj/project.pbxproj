@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89987D291F27BC9A00D4A924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987D281F27BC9A00D4A924 /* AppDelegate.swift */; };
+		89987D2B1F27BC9A00D4A924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987D2A1F27BC9A00D4A924 /* ViewController.swift */; };
+		89987D2D1F27BC9A00D4A924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89987D2C1F27BC9A00D4A924 /* Assets.xcassets */; };
+		89987D301F27BC9A00D4A924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89987D2E1F27BC9A00D4A924 /* Main.storyboard */; };
+		89987D421F27BD0F00D4A924 /* ⛔.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D381F27BD0F00D4A924 /* ⛔.mp3 */; };
+		89987D431F27BD0F00D4A924 /* 🌑.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D391F27BD0F00D4A924 /* 🌑.mp3 */; };
+		89987D441F27BD0F00D4A924 /* 🍺.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3A1F27BD0F00D4A924 /* 🍺.mp3 */; };
+		89987D451F27BD0F00D4A924 /* 🏑.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3B1F27BD0F00D4A924 /* 🏑.mp3 */; };
+		89987D461F27BD0F00D4A924 /* 🐴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3C1F27BD0F00D4A924 /* 🐴.mp3 */; };
+		89987D471F27BD0F00D4A924 /* 👦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3D1F27BD0F00D4A924 /* 👦.mp3 */; };
+		89987D481F27BD0F00D4A924 /* 👸.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3E1F27BD0F00D4A924 /* 👸.mp3 */; };
+		89987D491F27BD0F00D4A924 /* 👽.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D3F1F27BD0F00D4A924 /* 👽.mp3 */; };
+		89987D4A1F27BD0F00D4A924 /* 💇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D401F27BD0F00D4A924 /* 💇.mp3 */; };
+		89987D4B1F27BD0F00D4A924 /* 😤.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89987D411F27BD0F00D4A924 /* 😤.mp3 */; };
+		89987D4D1F27C18F00D4A924 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987D4C1F27C18F00D4A924 /* WindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89987D251F27BC9A00D4A924 /* Claudy Touch Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Claudy Touch Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89987D281F27BC9A00D4A924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89987D2A1F27BC9A00D4A924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89987D2C1F27BC9A00D4A924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89987D2F1F27BC9A00D4A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89987D311F27BC9A00D4A924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89987D381F27BD0F00D4A924 /* ⛔.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "⛔.mp3"; sourceTree = "<group>"; };
+		89987D391F27BD0F00D4A924 /* 🌑.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🌑.mp3"; sourceTree = "<group>"; };
+		89987D3A1F27BD0F00D4A924 /* 🍺.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🍺.mp3"; sourceTree = "<group>"; };
+		89987D3B1F27BD0F00D4A924 /* 🏑.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🏑.mp3"; sourceTree = "<group>"; };
+		89987D3C1F27BD0F00D4A924 /* 🐴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🐴.mp3"; sourceTree = "<group>"; };
+		89987D3D1F27BD0F00D4A924 /* 👦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "👦.mp3"; sourceTree = "<group>"; };
+		89987D3E1F27BD0F00D4A924 /* 👸.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "👸.mp3"; sourceTree = "<group>"; };
+		89987D3F1F27BD0F00D4A924 /* 👽.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "👽.mp3"; sourceTree = "<group>"; };
+		89987D401F27BD0F00D4A924 /* 💇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💇.mp3"; sourceTree = "<group>"; };
+		89987D411F27BD0F00D4A924 /* 😤.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "😤.mp3"; sourceTree = "<group>"; };
+		89987D4C1F27C18F00D4A924 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89987D221F27BC9A00D4A924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89987D1C1F27BC9A00D4A924 = {
+			isa = PBXGroup;
+			children = (
+				89987D271F27BC9A00D4A924 /* PHClaudyTouchBar */,
+				89987D261F27BC9A00D4A924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89987D261F27BC9A00D4A924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89987D251F27BC9A00D4A924 /* Claudy Touch Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89987D271F27BC9A00D4A924 /* PHClaudyTouchBar */ = {
+			isa = PBXGroup;
+			children = (
+				89987D371F27BD0F00D4A924 /* Sounds */,
+				89987D281F27BC9A00D4A924 /* AppDelegate.swift */,
+				89987D2A1F27BC9A00D4A924 /* ViewController.swift */,
+				89987D2C1F27BC9A00D4A924 /* Assets.xcassets */,
+				89987D2E1F27BC9A00D4A924 /* Main.storyboard */,
+				89987D311F27BC9A00D4A924 /* Info.plist */,
+				89987D4C1F27C18F00D4A924 /* WindowController.swift */,
+			);
+			path = PHClaudyTouchBar;
+			sourceTree = "<group>";
+		};
+		89987D371F27BD0F00D4A924 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				89987D381F27BD0F00D4A924 /* ⛔.mp3 */,
+				89987D391F27BD0F00D4A924 /* 🌑.mp3 */,
+				89987D3A1F27BD0F00D4A924 /* 🍺.mp3 */,
+				89987D3B1F27BD0F00D4A924 /* 🏑.mp3 */,
+				89987D3C1F27BD0F00D4A924 /* 🐴.mp3 */,
+				89987D3D1F27BD0F00D4A924 /* 👦.mp3 */,
+				89987D3E1F27BD0F00D4A924 /* 👸.mp3 */,
+				89987D3F1F27BD0F00D4A924 /* 👽.mp3 */,
+				89987D401F27BD0F00D4A924 /* 💇.mp3 */,
+				89987D411F27BD0F00D4A924 /* 😤.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89987D241F27BC9A00D4A924 /* PHClaudyTouchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89987D341F27BC9A00D4A924 /* Build configuration list for PBXNativeTarget "PHClaudyTouchBar" */;
+			buildPhases = (
+				89987D211F27BC9A00D4A924 /* Sources */,
+				89987D221F27BC9A00D4A924 /* Frameworks */,
+				89987D231F27BC9A00D4A924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHClaudyTouchBar;
+			productName = PHClaudyTouchBar;
+			productReference = 89987D251F27BC9A00D4A924 /* Claudy Touch Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89987D1D1F27BC9A00D4A924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pierre Houguet";
+				TargetAttributes = {
+					89987D241F27BC9A00D4A924 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TH4ZUTEEMJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89987D201F27BC9A00D4A924 /* Build configuration list for PBXProject "PHClaudyTouchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89987D1C1F27BC9A00D4A924;
+			productRefGroup = 89987D261F27BC9A00D4A924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89987D241F27BC9A00D4A924 /* PHClaudyTouchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89987D231F27BC9A00D4A924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89987D491F27BD0F00D4A924 /* 👽.mp3 in Resources */,
+				89987D4B1F27BD0F00D4A924 /* 😤.mp3 in Resources */,
+				89987D441F27BD0F00D4A924 /* 🍺.mp3 in Resources */,
+				89987D461F27BD0F00D4A924 /* 🐴.mp3 in Resources */,
+				89987D4A1F27BD0F00D4A924 /* 💇.mp3 in Resources */,
+				89987D421F27BD0F00D4A924 /* ⛔.mp3 in Resources */,
+				89987D431F27BD0F00D4A924 /* 🌑.mp3 in Resources */,
+				89987D451F27BD0F00D4A924 /* 🏑.mp3 in Resources */,
+				89987D2D1F27BC9A00D4A924 /* Assets.xcassets in Resources */,
+				89987D481F27BD0F00D4A924 /* 👸.mp3 in Resources */,
+				89987D301F27BC9A00D4A924 /* Main.storyboard in Resources */,
+				89987D471F27BD0F00D4A924 /* 👦.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89987D211F27BC9A00D4A924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89987D2B1F27BC9A00D4A924 /* ViewController.swift in Sources */,
+				89987D4D1F27C18F00D4A924 /* WindowController.swift in Sources */,
+				89987D291F27BC9A00D4A924 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89987D2E1F27BC9A00D4A924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89987D2F1F27BC9A00D4A924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89987D321F27BC9A00D4A924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89987D331F27BC9A00D4A924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		89987D351F27BC9A00D4A924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TH4ZUTEEMJ;
+				INFOPLIST_FILE = PHClaudyTouchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pierreHouguet.PHClaudyTouchBar;
+				PRODUCT_NAME = "Claudy Touch Bar";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89987D361F27BC9A00D4A924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TH4ZUTEEMJ;
+				INFOPLIST_FILE = PHClaudyTouchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pierreHouguet.PHClaudyTouchBar;
+				PRODUCT_NAME = "Claudy Touch Bar";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89987D201F27BC9A00D4A924 /* Build configuration list for PBXProject "PHClaudyTouchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89987D321F27BC9A00D4A924 /* Debug */,
+				89987D331F27BC9A00D4A924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89987D341F27BC9A00D4A924 /* Build configuration list for PBXNativeTarget "PHClaudyTouchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89987D351F27BC9A00D4A924 /* Debug */,
+				89987D361F27BC9A00D4A924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89987D1D1F27BC9A00D4A924 /* Project object */;
+}
