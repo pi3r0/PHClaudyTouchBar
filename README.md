@@ -4,7 +4,7 @@ An app for the new Macbook Pro's Touch bar with sound from Claudy’s quotes fro
 
 Feel free to add quote or directly request it
 
-![Claudy Touch Bar screenshot](https://github.com/pi3r0/PHClaudyTouchBar/Screenshot.png)
+![Claudy Touch Bar screenshot](https://raw.githubusercontent.com/pi3r0/PHClaudyTouchBar/master/Screenshot.png)
 
 ## Download
 [From here](https://github.com/pi3r0/PHClaudyTouchBar/releases) or clone this repo and build it with Xcode 8.1
